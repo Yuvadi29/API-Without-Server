@@ -1,8 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# API With Service Workers
 
-Currently, two official plugins are available:
+This is a simple demo on how can we create an API without the need to create a server using the service workers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+
+```bash
+  git clone https://github.com/Yuvadi29/API-Without-Server.git
+  cd API-Without-Server
+  npm install
+  npm run dev
+```
+
+To get the build file 
+```bash
+npm run build
+```
+
+To test the server on localhost or http
+```bash
+npx http-server -p 3000 ./dist/
+```
+
+Then go to http://127.0.0.1:3000/api/hello/ to see the output
+
+
+![image](https://github.com/Yuvadi29/API-Without-Server/assets/80524895/4e7ef926-5573-4a52-9c5f-6deaa0f7bc5d)
